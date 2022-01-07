@@ -1,6 +1,6 @@
 var request = new XMLHttpRequest();
 
-request.open('GET', 'https://api.giphy.com/v1/gifs/random?api_key=kBCbk9g3LgpOEOohW7Avy61RKiPTGaHc&tag=kitten');
+request.open('GET', 'https://api.giphy.com/v1/gifs/random?api_key=kBCbk9g3LgpOEOohW7Avy61RKiPTGaHc&tag=cute girls');
 
 request.onload = function() {
 	var response = request.response;
